@@ -22,10 +22,10 @@ export default function HSServices() {
                  El único sistema de pruebas de esfuerzos para sistemas Top Drive en América Latina.
                 </h1>
                 <Link to="/contacto"
-                className="inline-flex items-center mt-5 md:ml-8 md:w-1/5 w-1/3 md:px-8 px-8  py-3 border  text-sm font-medium rounded-full 
+                className="inline-flex items-center mt-5 md:ml-8 md:w-1/5 w-1/2 text-center md:px-8 px-10 py-3 border text-sm font-medium rounded-full 
                 shadow-sm text-slate-900 border-[#FF6900] bg-white hover:border-[#2DCCD3] hover:bg-[#2DCCD3] focus:outline-none focus:ring-2 focus:ring-offset-2
                 focus:ring-[#2DCCD3] transition duration-500">
-                  Contáctanos
+                  <p className="m-auto">Contáctanos</p>
                 </Link>
 
               
