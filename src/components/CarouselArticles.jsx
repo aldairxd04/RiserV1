@@ -6,18 +6,19 @@ export default function CarouselArticles() {
 
 
   return (
-    <div className=" bg-white lg:mt-0 xl:mt-0">
+    <div className=" bg-white  md:mt-0 lg:mt-0 xl:mt-0">
       {/* Header */}
-      <div className="relative md:bg-gray-100 bg-white md:mt-0 sm:mt-[28rem] mt-[40rem] ">
+      <div className="relative md:bg-gray-100 bg-white md:mt-0 sm:mt-[20rem] mt-[48rem] ">
         <div className="relative max-w-7xl py-16 px-4  sm:px-6 lg:px-8"></div>
       </div>
 
       {/* Overlapping cards */}
       <section
         id="comunidad"
-        className="relative lg:ml-40 z-10 md:pt-0 pt-9 mx-auto md:mt-0 xl:-mt-16 lg:mt-36 -mt-28 max-w-7xl lg:mx-[5rem] px-4 md:pb-16 sm:px-6 lg:right-3 sm:mb-0 "
+        className="relative  lg:ml-40 z-10 md:pt-0 pt-9 mx-auto md:mt-0 xl:-mt-16 lg:mt-36 m-auto max-w-7xl lg:mx-[5rem] px-4 md:pb-16 sm:px-6 lg:right-3 sm:mb-0 "
         aria-labelledby="contact-heading"
       >
+        <div className="">
         <Carousel
           additionalTransfrom={0}
           arrows
@@ -209,6 +210,7 @@ export default function CarouselArticles() {
             </div>
           </div>
         </Carousel>
+        </div>
       </section>
     </div>
   );
