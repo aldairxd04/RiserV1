@@ -3,7 +3,7 @@ import { BoltIcon, PhoneIcon, AtSymbolIcon } from '@heroicons/react/24/outline'
 const supportLinks = [
   {
     name: 'WhatsApp',
-    href: 'https://web.whatsapp.com/send?phone=5219932070292&text=',
+    href: 'https://wa.me/5219932070292?text',
     description:
       'La forma más fácil de ponerte en contacto con nosotros.',
     icon: PhoneIcon,
