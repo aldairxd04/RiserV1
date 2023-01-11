@@ -10,7 +10,7 @@ const navigation = [
 export default function HSServices() {
 
   return (
-    <div className="isolate bg-cover bg-center bg-[url('/assets/risr7.jpg')]/black-50">
+    <div className="isolate bg-cover bg-center bg-[url('/assets/risr7.jpg')]">
       
       <main>
         <div className="relative px-6 lg:px-8">
