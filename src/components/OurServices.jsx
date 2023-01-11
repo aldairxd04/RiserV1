@@ -48,8 +48,8 @@ export default function OurServices() {
               </ol>
 
               <Link
-                to="/servicios"
-                type="button"
+                to="servicios"
+                
                 className="transition duration-500 md:inline-flex items-center -ml-1 m-5 px-11 py-3 border border-transparent text-sm font-medium rounded-full 
                       shadow-sm text-slate-900 bg-[#FF6900] hover:bg-[#2DCCD3] focus:outline-none focus:ring-2 focus:ring-offset-2
                       focus:ring-[#2DCCD3]  hidden"
@@ -57,7 +57,7 @@ export default function OurServices() {
                 Servicios
               </Link>
               <Link
-                to="/contacto"
+                to="contacto"
                 className="md:inline-flex items-center px-11 py-3 border  text-sm font-medium rounded-full 
                       shadow-sm text-slate-900 border-[#FF6900] bg-white hover:border-[#2DCCD3] hover:bg-[#2DCCD3] focus:outline-none focus:ring-2 focus:ring-offset-2
                       focus:ring-[#2DCCD3] transition duration-500 hidden"
@@ -66,8 +66,7 @@ export default function OurServices() {
               </Link>
 
               <Link
-                to="/servicios"
-                type="button"
+                to="servicios"
                 className="transition duration-500 inline-flex items-center -ml-1 m-5 px-11 py-3 border border-transparent text-sm font-medium rounded-full 
                       shadow-sm text-slate-900 bg-[#FF6900] hover:bg-[#2DCCD3] focus:outline-none focus:ring-2 focus:ring-offset-2
                       focus:ring-[#2DCCD3] w-full justify-center md:hidden"
