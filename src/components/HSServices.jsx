@@ -10,7 +10,7 @@ const navigation = [
 export default function HSServices() {
 
   return (
-    <div className="isolate bg-cover bg-center bg-[url('/assets/risr7.jpg')]">
+    <div className="isolate bg-cover bg-center bg-[url('/assets/risr7.png')]">
       
       <main>
         <div className="relative px-6 lg:px-8">
@@ -18,7 +18,7 @@ export default function HSServices() {
             <div className='flex flex-col md:text-center'>
               
 
-                <h1 className=" mt-10 text-4xl font-bold text-black md:text-[#FF6900] uppercase tracking-tight sm:text-center sm:text-5xl">
+                <h1 className=" mt-10 text-4xl font-bold text-black uppercase tracking-tight sm:text-center sm:text-5xl">
                  El único sistema de pruebas de esfuerzos para sistemas Top Drive en América Latina.
                 </h1>
                 <Link to="/contacto"
